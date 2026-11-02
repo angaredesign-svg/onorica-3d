@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="module"
+src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+</script>
+
+<style>
+  body {
+    margin: 0;
+    background: #f7f6f3;
+  }
+
+  model-viewer {
+    width: 100%;
+    height: 480px;
+    background: #f7f6f3;
+  }
+</style>
+</head>
+
+<body>
+
+<model-viewer
+  src="models/path.glb"
+  alt="ONORICA PATH ring"
+  camera-controls
+  interaction-prompt="none"
+  camera-orbit="35deg 70deg 115%"
+  environment-image="neutral"
+  exposure="1"
+  shadow-intensity="0.8">
+</model-viewer>
+
+</body>
+</html>
